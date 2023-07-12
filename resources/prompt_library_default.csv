@@ -1,0 +1,13 @@
+goal_code,prompt
+get_strategy_description,describe the trading strategy in a text based flowchart contained in this code: {user_input}. Use bulletpoints.
+get_strategy_feedback_from_code,the trading strategy is implemented in this code: {user_input}. provide suggestions to improve or extend this strategy. Base your suggestions on strategies of professionals traders. Comments on why these suggestsions make sense. Use bulletpoints.
+get_strategy_feedback_from_description,the trading strategy is implemented in this code: {user_input}. provide suggestions to improve or extend this strategy. Base your suggestions on strategies of professionals traders. Comments on why these suggestsions make sense. Use bulletpoints.
+get_strategy_visualisation_from_code,Generate python code that I can run that visualises the following trading strategy using graphviz: {user_input}.
+get_strategy_visualisation_from_description,Generate python code that creates a flowchart of the following trading strategy using the graphviz library: {user_input}.
+submission_prompt_template,{context}. {combined_prompt}
+coding_context,"Generate Python code for the backtrader framework. Write only code and comments in the code, don't give explanations."
+set_datapipeline,Use the following description of the datasource in the backtrader backtest: {user_input}
+set_strategy,Use the following description of the trading strategy rules in the backtrader backtest: {user_input}
+set_analysers,Use the following description of the analysers in the backtrader backtest: {user_input}
+,
+,
